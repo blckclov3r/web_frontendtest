@@ -1,0 +1,72 @@
+*{
+	box-sizing: border-box;
+}
+
+
+body{
+	background: #eee;
+	margin: 0px;
+	padding: 0px;
+	font-family: 'lora','sans-serif';
+}
+
+
+header{
+	background: #333;
+	height: 66px;
+}
+
+
+.logo .logo-text{
+	 color: #fff;
+	 font-family: 'Candal', sans-serif;
+	font-family: 'Lora', serif;
+}
+
+header *{
+	color: #fff;
+}
+
+header .logo{
+	float: left;
+	display: inherit;
+	position: relative;
+	border: 1px solid #006699;
+	margin-left: 2em;
+
+}
+
+header .logo .logo-text{
+	margin: 4px;
+	padding: 4px;
+	display: inherit;
+}
+
+header ul{
+	float: right;
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+header ul li{
+	float: left;
+	position: relative;
+}
+
+header ul li a{
+	display: block;
+	padding: 21px;
+	font-size: 1.1em;
+	text-decoration: none;
+
+}
+
+header ul li:hover{
+	background: #006669;
+	transition: .7s;
+}
+
+header .menu-toggle{
+	display: none;
+}
