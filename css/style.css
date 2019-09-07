@@ -82,6 +82,9 @@ header .menu-toggle{
 
 /*media queries*/
 @media only screen and (max-width: 750px){
+
+
+
 	header{
 		position: relative;
 	}
@@ -90,6 +93,10 @@ header .menu-toggle{
 		background: #333;
 		max-height: 0px;
 		overflow: hidden;;
+	}
+
+	.showing{
+		max-height: 100em;
 	}
 
 	header ul li{
@@ -108,7 +115,7 @@ header .menu-toggle{
 
 
 	header .logo{
-		margin-left: .8em;
+		margin-left: .5em;
 
 	}
 
