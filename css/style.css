@@ -4,15 +4,15 @@
 
 
 body{
-	background: #eee;
+	background: #fff;
 	margin: 0px;
 	padding: 0px;
-	font-family: 'lora','sans-serif';
+	font-family: 'Lora',sans-serif;
 }
 
 
 header{
-	background: #333;
+	background: #222;
 	height: 66px;
 }
 
@@ -23,16 +23,15 @@ header{
 	font-family: 'Lora', serif;
 }
 
-header *{
-	color: #fff;
-}
+
 
 header .logo{
 	float: left;
 	display: inherit;
 	position: relative;
-	border: 1px solid #006699;
+	
 	margin-left: 2em;
+	margin-top: 7px;
 
 }
 
@@ -40,6 +39,12 @@ header .logo .logo-text{
 	margin: 4px;
 	padding: 4px;
 	display: inherit;
+}
+
+
+
+header .logo span{
+	color: #006699;
 }
 
 header ul{
@@ -59,14 +64,56 @@ header ul li a{
 	padding: 21px;
 	font-size: 1.1em;
 	text-decoration: none;
+	color: #fff;
 
 }
 
 header ul li:hover{
 	background: #006669;
-	transition: .7s;
+	transition: .4s;
 }
 
 header .menu-toggle{
 	display: none;
+
+}
+
+
+
+/*media queries*/
+@media only screen and (max-width: 750px){
+	header{
+		position: relative;
+	}
+	header ul{
+		width: 100%;
+		background: #333;
+		max-height: 0px;
+		overflow: hidden;;
+	}
+
+	header ul li{
+		width: 100%;
+		display: block;
+	}
+
+	header .menu-toggle{
+		display: block;
+		position: absolute;
+		color: #fff;
+		right: 20px;
+		top: 15px;
+		font-size: 1.9em;
+	}
+
+
+	header .logo{
+		margin-left: .8em;
+
+	}
+
+
+	header .logo span{
+		color: #006699;
+	}
 }
