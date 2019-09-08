@@ -26,6 +26,7 @@ header:after{
 	 color: #fff;
 	 font-family: 'Candal', sans-serif;
 	font-family: 'Lora', serif;
+
 }
 
 
@@ -34,7 +35,6 @@ header .logo{
 	float: left;
 	display: inherit;
 	position: relative;
-	
 	margin-left: 2em;
 	margin-top: 7px;
 
@@ -44,6 +44,7 @@ header .logo .logo-text{
 	margin: 4px;
 	padding: 4px;
 	display: inherit;
+	font-family: sans-serif;
 }
 
 
@@ -51,6 +52,7 @@ header .logo .logo-text{
 header .logo span{
 	color: #006699;
 	font-family: 'Candal'
+
 }
 
 header ul{
@@ -66,12 +68,14 @@ header ul li{
 }
 
 header ul li a{
+	margin-top: 7px;
 	display: block;
 	padding: 21px;
 	font-size: 1.1em;
 	text-decoration: none;
 	color: #fff;
 	text-transform: uppercase;
+	font-size: .8em;
 
 
 }
@@ -79,6 +83,7 @@ header ul li a{
 header ul li:hover{
 	background: #006669;
 	transition: .4s;
+
 }
 
 header .menu-toggle{
