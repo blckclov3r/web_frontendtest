@@ -45,6 +45,7 @@ header .logo .logo-text{
 	padding: 4px;
 	display: inherit;
 	font-family: sans-serif;
+	font-size: 36px;
 }
 
 
@@ -111,7 +112,7 @@ header .menu-toggle{
 	}
 
 	header ul li{
-		border-top: 2px solid black;
+		border-top: 2px solid #444;
 		width: 100%;
 		display: block;
 	}
@@ -121,7 +122,7 @@ header .menu-toggle{
 		position: absolute;
 		color: #fff;
 		right: 20px;
-		top: 15px;
+		top: 14px;
 		font-size: 1.9em;
 	}
 
@@ -131,9 +132,15 @@ header .menu-toggle{
 
 	}
 
+	header .logo .logo-text{
+		font-size: 32px;
+	}
+
 
 	header .logo span{
 		color: #006699;
+		line-height:0em;
+		font-size: 29px;
 	}
 
 }
