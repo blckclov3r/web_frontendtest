@@ -5,8 +5,9 @@ body{
 	background: #fff;
 	margin: 0px;
 	padding: 0px;
-	font-family: 'Lora',sans-serif;
+	font-family: sans-serif;
 	box-sizing: border-box;
+	width: 100%;
 }
 
 
@@ -15,17 +16,12 @@ header{
 	height: 66px;
 }
 
-header:after{
-	display: block;
-	clear: both;
-	content: "";
-}
 
 
 .logo .logo-text{
 	 color: #fff;
-	 font-family: 'Candal', sans-serif;
-	font-family: 'Lora', serif;
+	 font-family: sans-serif;
+	
 
 }
 
@@ -51,7 +47,7 @@ header .logo .logo-text{
 
 header .logo span{
 	color: #006699;
-	font-family: 'Candal'
+	font-family: sans-serif;
 
 }
 
@@ -76,7 +72,7 @@ header ul li a{
 	color: #fff;
 	text-transform: uppercase;
 	font-size: .8em;
-
+font-weight: bold;
 
 }
 
@@ -90,8 +86,6 @@ header .menu-toggle{
 	display: none;
 
 }
-
-
 
 /*media queries*/
 @media only screen and (max-width: 750px){
@@ -136,4 +130,78 @@ header .menu-toggle{
 	header .logo span{
 		color: #006699;
 	}
+
 }
+
+@media only screen and (max-width: 300px){
+	.text{
+		font-size: 11px;
+	}
+}
+
+
+/*img*/
+img{
+	width: 100%;
+	vertical-align: center;
+	height: 380px;
+	
+	object-fit: cover;
+ 	
+ 	
+}
+
+.container{
+	text-align: center;
+	width: 100%;
+	
+	position: relative;
+
+}
+
+.container .slideshow-container{
+	width: 100%;
+	height: 380px;
+
+}
+
+.slideshow-container .numbertext{
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 8px 12px;
+	color: #f2f2f2;
+	font-size: 14px;
+}
+
+.container .text{
+	color: #f2f2f2;
+	font-size: 14px;
+	padding: 8px 12px;
+	position: absolute;
+	bottom: 8px;
+	width: 100%;
+	text-align: center;
+	margin-bottom: 40px;
+
+}
+
+.slideshow-container .dots-container{
+	text-align: center;
+	justify-content: center;
+	width: 100%;
+	position: absolute;
+	bottom: 10px;
+	 
+}
+
+
+
+.container .slideshow-container  .dot{
+	height: 15px;
+	width: 15px;
+	margin: 0 2px;
+	border-radius: 50%;
+	display: inline-block;
+}
+
