@@ -1,6 +1,4 @@
-*{
-	box-sizing: border-box;
-}
+
 
 
 body{
@@ -8,12 +6,19 @@ body{
 	margin: 0px;
 	padding: 0px;
 	font-family: 'Lora',sans-serif;
+	box-sizing: border-box;
 }
 
 
 header{
 	background: #222;
 	height: 66px;
+}
+
+header:after{
+	display: block;
+	clear: both;
+	content: "";
 }
 
 
