@@ -111,6 +111,7 @@ header .menu-toggle{
 	}
 
 	header ul li{
+		border-top: 2px solid black;
 		width: 100%;
 		display: block;
 	}
