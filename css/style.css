@@ -9,7 +9,7 @@ body{
 	padding: 0px;
 	font-family: sans-serif;
 	
-	width: 100%;
+	
 }
 
 
@@ -166,7 +166,6 @@ img{
 .container{
 	text-align: center;
 	width: 100%;
-	
 	position: relative;
 
 }
@@ -241,3 +240,59 @@ img{
 	animation-name: fade;
 	animation-duration: 1.5s;
 }
+
+
+/*post slider*/
+.post-slider{
+	position: relative;
+	border: 1px solid red;
+	background: #fff;
+
+
+}
+
+.post-slider .post-wrapper{
+	margin: 0px auto;
+	border: 1px dashed red;
+	width: 86.33%;
+	height: 350px;
+	background: #fff;
+	padding: 1%;
+	margin: 0 auto;
+}
+
+.post-slider .slider-title{
+	text-align: center;
+	margin: 30px auto;
+}
+
+.post-slider .next{
+	position: absolute;
+	top: 50%;
+	right: 0;
+	font-size: 28px;
+	color: #006699;
+}
+
+.post-slider .prev{
+	position: absolute;
+	top: 50%;
+	left: 0;
+	font-size: 28px;
+	color: #006699;
+}
+
+.post-slider .post-wrapper div{
+	margin-right: 10px;
+
+}
+
+.post-slider .post-wrapper .post{
+	border: 1px solid black;
+	height: 200px;
+	background-color: #006699;
+	display: inline-block;
+
+}
+
+
