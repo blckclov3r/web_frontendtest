@@ -50,6 +50,7 @@ header .logo .logo-text{
 
 header .logo span{
 	color: #006699;
+	font-family: 'Candal'
 }
 
 header ul{
@@ -70,6 +71,8 @@ header ul li a{
 	font-size: 1.1em;
 	text-decoration: none;
 	color: #fff;
+	text-transform: uppercase;
+
 
 }
 
