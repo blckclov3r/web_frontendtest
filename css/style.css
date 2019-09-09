@@ -402,7 +402,9 @@ span, h1{
 
 .columns section table{
 	border: 1px solid #ccc;
-}
+	margin: 0 auto;
+
+}	
 
 .columns section table td {
 	display: inline-block;	
@@ -410,12 +412,12 @@ span, h1{
 }
 
 .columns section table img{
-	width: 200px;
+	width: 210px;
 	height: 200px;
 }
 
 .columns section table span{
-	font-size: .8em;
+	font-size: .9em;
 }
 
 .columns section table input{
@@ -424,3 +426,105 @@ span, h1{
 	bottom: 16px;
 }
 
+/*dropdown*/
+.columns section select{
+	appearance: none;
+	outline: none;
+	box-shadow: none;
+	background: #2c3e50; 
+	border: 0 !important;
+	width: 100%;
+	height: 100%;
+
+	padding: 0 0 0 .5em;
+	color: #fff;
+	letter-spacing: .8px;
+	cursor: pointer;
+}
+
+.columns section .select{
+	position: relative;
+	display: block;
+	width: 15em;
+	height: 3em;
+	overflow: hidden;
+	line-height: 3;
+	border-radius: .25em;
+}
+
+.columns section .select:hover{
+	color: #31a3e4;
+}
+
+
+
+.columns aside,.columns section{
+	position: relative;
+	float: left;
+	width: 46%;
+	margin: 1%;
+	padding: 1%;
+	
+}
+
+
+/*section toggle*/
+ .columns   .onoffswitch {
+        position: relative; width: 90px;
+        -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+    }
+ .columns    .onoffswitch-checkbox {
+        display: none;
+    }
+ .columns     .onoffswitch-label {
+        display: block; overflow: hidden; cursor: pointer;
+        border: 2px solid #999999; border-radius: 20px;
+    }
+ .columns    .onoffswitch-inner {
+        display: block; width: 200%; margin-left: -100%;
+        transition: margin 0.3s ease-in 0s;
+    }
+  .columns    .onoffswitch-inner:before, .onoffswitch-inner:after {
+        display: block; float: left; width: 50%; height: 30px; padding: 0; line-height: 30px;
+        font-size: 14px; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;
+        box-sizing: border-box;
+    }
+ .columns     .onoffswitch-inner:before {
+        content: "ON";
+        padding-left: 10px;
+        background-color: #34A7C1; color: #FFFFFF;
+    }
+  .columns    .onoffswitch-inner:after {
+        content: "OFF";
+        padding-right: 10px;
+        background-color: #EEEEEE; color: #999999;
+        text-align: right;
+    }
+ .columns     .onoffswitch-switch {
+        display: block; width: 18px; margin: 6px;
+        background: #FFFFFF;
+        position: absolute; top: 0; bottom: 0;
+        right: 56px;
+        border: 2px solid #999999; border-radius: 20px;
+        transition: all 0.3s ease-in 0s; 
+    }
+   .columns   .onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+        margin-left: 0;
+    }
+    .columns  .onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
+        right: 0px; 
+  }
+
+/*section buttons*/
+
+.columns section .button{
+	text-align: center;
+	width: 340px;
+	margin: 0 auto;
+	-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    background-color: #006699;
+  	margin-top: 6px;
+    padding: 8px;
+    color: #fff;
+}
