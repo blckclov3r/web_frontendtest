@@ -163,6 +163,13 @@ header .menu-toggle{
 		color: #006699;
 	}
 
+	.columns section table tbody {
+		position: relative;
+		margin: 0 auto;
+		display: block;
+	}
+
+
 	
 }
 
