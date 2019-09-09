@@ -82,7 +82,7 @@ header ul li a{
 }
 
 header ul li:hover{
-	background: #006669;
+	background: #006699;
 	transition: .4s;
 
 }
@@ -245,32 +245,33 @@ img{
 /*post slider*/
 .post-slider{
 	position: relative;
-	border: 1px solid red;
 	background: #fff;
-
+	overflow: hidden;
 
 }
 
 .post-slider .post-wrapper{
 	margin: 0px auto;
-	border: 1px dashed red;
 	width: 86.33%;
-	height: 350px;
-	background: #fff;
+	height: 340px;
+	background: #f2f2f2;
 	padding: 1%;
 	margin: 0 auto;
 }
 
+
+
 .post-slider .slider-title{
 	text-align: center;
 	margin: 30px auto;
+	width: 100%;
 }
 
 .post-slider .next{
 	position: absolute;
 	top: 50%;
 	right: 0;
-	font-size: 28px;
+	font-size: 40px;
 	color: #006699;
 }
 
@@ -278,21 +279,91 @@ img{
 	position: absolute;
 	top: 50%;
 	left: 0;
-	font-size: 28px;
+	font-size: 40px;
 	color: #006699;
 }
 
 .post-slider .post-wrapper div{
-	margin-right: 10px;
+	position: relative;
+}
 
+.post-slider .post-wrapper img{
+	height: 70%;
+	width: 100%;
+	position: inherit;
+
+}
+
+.post-slider .post-wrapper .post-detail{
+
+	position: relative;
+}
+
+.post-slider .post-wrapper .post-detail .fa-thumbtack{
+	position: absolute;
+	right: 0;
+	font-size: 24px;
+	color: yellow;
+	margin-top: 8px;
+	margin-right: 8px;
+}
+
+.post-slider .post-wrapper .post-detail .white{
+	position: absolute;
+	right: 0;
+	font-size: 24px;
+	color: #fff;
+	margin-top: 8px;
+	margin-right: 8px;
+}
+
+
+
+
+.post-slider .post-wrapper .post-detail span{
+	color: #fff;
+	font-family: sans-serif;
+	position: inherit;
+	font-size: .7em;
 }
 
 .post-slider .post-wrapper .post{
-	border: 1px solid black;
-	height: 200px;
-	background-color: #006699;
-	display: inline-block;
+	height: 300px;
 
+	background-color: #222;
+	display: inline-block;
+	border: 2px solid #fff;
+	position: relative;
 }
 
 
+
+.post-wrapper .button {
+	text-align: center;
+  color: #fff;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+    background-color: #fff;
+  	margin-top: 6px;
+    padding: 8px;
+    width: 100%;
+    background: #333;
+   
+}
+
+
+
+.post-wrapper .button:hover {
+  background-color: #006699; /* Green */
+  color: white;
+}
+
+
+
+.post-slider .post-detail span {
+	margin-left: 8px;
+}
+
+span, h1{
+	font-family: sans-serif;
+}
