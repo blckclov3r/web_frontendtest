@@ -13,7 +13,7 @@ body{
 }
 
 
-header{
+header,nav{
 	background: #222;
 	height: 66px;
 	width: 100%;
@@ -146,6 +146,24 @@ header .menu-toggle{
 		font-size: 29px;
 	}
 
+	
+	.page-wrapper .post-slider .next{
+		position: absolute;
+		top: 60%;
+		right: 0;
+		font-size: 24px;
+		color: #006699;
+	}
+
+	.page-wrapper .post-slider .prev{
+		position: absolute;
+		top: 60%;
+		left: 0;
+		font-size: 24px;
+		color: #006699;
+	}
+
+	
 }
 
 @media only screen and (max-width: 300px){
@@ -290,8 +308,10 @@ img{
 	position: relative;
 }
 
+
+
 .post-slider .post-wrapper img{
-	height: 70%;
+	height: 73%;
 	width: 100%;
 	position: inherit;
 
