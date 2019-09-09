@@ -591,6 +591,93 @@ span, h1{
 
 article{
 	padding: 10px;
-	margin: 0 auto;
+
+	
+	position: relative;
+}
+
+article span{
+	color: #555;
+	font-family: monospace;
+	position: absolute;
+	left: 0;
+
+	padding: 10px;
+}
+
+article label{
+	font-family: sans-serif;
+	font-size: .9em;
+}
+
+article .button{
+	display: inline-block;
+}
+
+article .container-desc{
+	border-bottom: 1px solid #333;
+	padding: 10px;
+	position: relative;
+	left: 0;
+	display: block;
+}
+article  .arrow{
+	margin-top: 8px;
+	font-size: 40px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	color: #333;
+}
+
+article .button{
 	text-align: center;
+	width: 280px;
+	margin: 0 auto;
+	-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    background-color: #333;
+  	margin-top: 6px;
+    padding: 8px;
+    color: #fff;
+}
+
+article .button:hover{
+	text-align: center;
+	width: 280px;
+	margin: 0 auto;
+	-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+     background-color:#006699 ;
+  	margin-top: 6px;
+    padding: 8px;
+    cursor: pointer;
+    color: #fff;
+}
+
+article{
+	width: 960px;
+	margin: 0 auto;
+}
+
+article .article-header{
+	position: relative;
+	color: #fff;
+	width: 100%;
+	margin-top: 30px;
+}
+
+article .article-header .button{
+	position: absolute;
+	top: -49px;
+	right: 0;
+	
+
+}
+
+article .article-header  h4{
+	position: absolute;
+	top: -49px;
+	left: 0;
+	color: #333;
 }
