@@ -379,6 +379,7 @@ img{
     padding: 8px;
     width: 100%;
     background: #333;
+
    
 }
 
@@ -416,6 +417,7 @@ span, h1{
 .columns section table td {
 	display: inline-block;	
 	position: relative;
+
 }
 
 .columns section table img{
@@ -465,12 +467,12 @@ span, h1{
 
 
 
-.columns aside,.columns section{
+.columns aside, .columns section{
 	position: relative;
 	float: left;
-	width: 46%;
-	margin: 1%;
-	padding: 1%;
+	width: 48%;
+	margin: .5%;
+	padding: .5%;
 	
 }
 
@@ -530,8 +532,65 @@ span, h1{
 	margin: 0 auto;
 	-webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
-    background-color: #006699;
+    background-color: #333;
   	margin-top: 6px;
     padding: 8px;
     color: #fff;
+}
+
+.columns section button{
+	border-radius: 10%;
+}
+
+.columns section .button:hover{
+	text-align: center;
+	width: 340px;
+	margin: 0 auto;
+	-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    background-color:#006699 ;
+  	margin-top: 6px;
+    padding: 8px;
+    cursor: pointer;
+    color: #fff;
+}
+
+
+/*aside table*/
+.columns aside table img{
+	height: 50%;
+	height: 100%;
+}
+
+.columns aside .button{
+	text-align: center;
+	width: 280px;
+	margin: 0 auto;
+	-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    background-color: #333;
+  	margin-top: 6px;
+    padding: 8px;
+    color: #fff;
+
+}
+
+.columns aside .button:hover{
+	text-align: center;
+	width: 280px;
+	margin: 0 auto;
+	-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+     background-color:#006699 ;
+  	margin-top: 6px;
+    padding: 8px;
+    cursor: pointer;
+    color: #fff;
+}
+
+
+article{
+	padding: 10px;
+	margin: 0 auto;
+	text-align: center;
 }
