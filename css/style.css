@@ -306,6 +306,7 @@ img{
 
 .post-slider .post-wrapper div{
 	position: relative;
+
 }
 
 
@@ -390,3 +391,36 @@ img{
 span, h1{
 	font-family: sans-serif;
 }
+
+
+/*table columns*/
+
+.columns{
+	width: 98%;
+	padding: 1%;
+}
+
+.columns section table{
+	border: 1px solid #ccc;
+}
+
+.columns section table td {
+	display: inline-block;	
+	position: relative;
+}
+
+.columns section table img{
+	width: 200px;
+	height: 200px;
+}
+
+.columns section table span{
+	font-size: .8em;
+}
+
+.columns section table input{
+	position: absolute;
+	right: 0;
+	bottom: 16px;
+}
+
