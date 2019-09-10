@@ -563,7 +563,7 @@ article  .arrow{
 
 article .button{
 	text-align: center;
-	width: 280px;
+
 	margin: 0 auto;
 	-webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
@@ -575,7 +575,6 @@ article .button{
 
 article .button:hover{
 	text-align: center;
-	width: 280px;
 	margin: 0 auto;
 	-webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
