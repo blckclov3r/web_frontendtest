@@ -339,7 +339,7 @@ span, h1{
 }
 
 .columns section table img{
-	width: 250px;
+	width: 100%;
 	height: 200px;
 	
 
@@ -490,7 +490,7 @@ span, h1{
 
 /*aside table*/
 .columns aside table img{
-	width: 250px;
+	width: 100%;
 	height: 200px;
 }
 
