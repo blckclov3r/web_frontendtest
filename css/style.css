@@ -659,14 +659,13 @@ footer .footer-content .about  .socials a{
 	text-align: center;
 	display: inline-block;
 	font-size: 1.1em;
-	border: 1px solid #ccc;
+
 	transition: all .3s;
 }
 
 footer .footer-content .about  .socials a:hover{
 	color: #fff;
 	font-size: 1.7em;
-	border: 1px solid #006699;
 	transition: all .3s;
 }
 
