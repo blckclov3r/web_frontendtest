@@ -659,7 +659,7 @@ footer .footer-content .about  .socials a{
 	margin-right: 5px;
 	text-align: center;
 	display: inline-block;
-	font-size: 1.3em;
+	font-size: 1.1em;
 	border: 1px solid #ccc;
 	transition: all .3s;
 }
@@ -673,7 +673,7 @@ footer .footer-content .about  .socials a:hover{
 
 footer .contact-form input{
 	width: 100%;
-    font-size: 18px;
+    font-size: 16px;
     border: none;
     background: #272727;
     color: #bebdbd;
@@ -688,7 +688,7 @@ footer .contact-form input:focus{
 
 footer .contact-form textarea{
 	width: 100%;
-	font-size: 18px;
+	font-size: 16px;
 	border: none;
 	background: #272727;
     color: #bebdbd;
@@ -708,7 +708,7 @@ footer .contact-form button{
 	border: none;
 	color: #d3d3d3;
 	border-radius: 4px;
-	font-size: 18px;
+	font-size: 16px;
 	line-height: 1.3rem;
 }
 
@@ -719,7 +719,7 @@ footer .contact-form button {
 
 footer .contact-form button:hover{
 	color: #fff;
-	font-size: 21px;
+	font-size: 19px;
 }
 
 footer .links ul li{
@@ -859,6 +859,8 @@ footer .footer-bottom{
 	margin-right: 30px;
 	margin-top:15px;
 }
+
+
 
 .arrow-up span{
 	font-size: 1.3em;
